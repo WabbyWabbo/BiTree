@@ -140,10 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BiTree.h" />
-    <ClInclude Include="resource.h" />
+    <ClInclude Include="BST.h" />
+    <ClInclude Include="ThreadTree.h" />
+    <ClInclude Include="UFSets.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test_BiTree.cpp" />
+    <ClCompile Include="test_BST.cpp" />
+    <ClCompile Include="test_ThreadTree.cpp" />
+    <ClCompile Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="BiTree.png" />
